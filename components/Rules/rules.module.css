@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.header {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 3.2rem;
+}
+
+.header span {
+  color: white;
+}
+
+.half_background {
+  background: linear-gradient(to top, #4384f2 50%, transparent 50%);
+}
+
+.background {
+  background-color: #3ddb83;
+  padding-bottom: 3.4rem;
+  margin-left: 94px;
+}
+
+.number{
+    color: #0E2E49;
+    font-size: 44px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 15px;
+}
+
+.rule{
+    color: white;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .background {
+    margin-left: 0;
+  }
+}

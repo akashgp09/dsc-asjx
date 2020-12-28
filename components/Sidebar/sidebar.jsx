@@ -51,7 +51,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li className={styles.sidebar__item}>
-          <a href="#speakers-section" className={styles.sidebar__item__link}>
+          <a href="#rules-section" className={styles.sidebar__item__link}>
             <i alt="rules">
               <svg
                 width="30"
