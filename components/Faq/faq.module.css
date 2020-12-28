@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 3.2rem;
+}
+.header span {
+  color: white;
+}
+.half_background {
+  background: linear-gradient(to top, #3ddb83 50%, transparent 50%);
+}
+.background {
+  background-color: #4384f2;
+  padding-bottom: 3.4rem;
+  margin-left: 94px;
+}
+@media only screen and (max-width: 600px) {
+  .background {
+    margin-left: 0;
+  }
+}
