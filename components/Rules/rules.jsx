@@ -3,7 +3,7 @@ import styles from "./rules.module.css";
 export default function Rules() {
   return (
     <>
-      <div className={styles.background} id="sponsors-section">
+      <div className={styles.background} id="rules-section">
         <div className={styles.header}>
           <span className={styles.half_background}>Rules</span>
         </div>
