@@ -1,0 +1,48 @@
+.header {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 3.2rem;
+}
+.header span {
+  color: white;
+}
+.half_background {
+  background: linear-gradient(to top, #4384f2 50%, transparent 50%);
+}
+.background {
+  background-color: #3ddb83;
+  padding-bottom: 3.4rem;
+  margin-left: 94px;
+}
+@media only screen and (max-width: 600px) {
+  .background {
+    margin-left: 0;
+  }
+}
+.sponsor_img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.sponsor_img_size {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  text-decoration: none;
+}
+.sponsor_imgbig_size {
+  width: 40%;
+  max-width: 300px;
+  height: auto;
+  text-decoration: none;
+}
+.sponsor_type {
+  font-weight: 900;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 2rem auto;
+}

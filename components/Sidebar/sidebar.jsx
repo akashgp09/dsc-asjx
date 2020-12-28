@@ -69,7 +69,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li className={styles.sidebar__item}>
-          <a href="#landing-section" className={styles.sidebar__item__link}>
+          <a href="#speakers-section" className={styles.sidebar__item__link}>
             <i alt="speaker">
               <svg
                 width="30"
