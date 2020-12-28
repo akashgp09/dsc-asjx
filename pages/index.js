@@ -1,6 +1,8 @@
 import Head from "next/head";
-import Faq from "../components/Faq/faq";
 import Sidebar from "../components/Sidebar/sidebar";
+import Speakers from "../components/Speakers/speakers";
+import Sponsors from "../components/Sponsors/sponsors";
+import Faq from "../components/Faq/faq";
 export default function Home() {
   return (
     <>
@@ -27,7 +29,8 @@ export default function Home() {
         />
       </Head>
       <Sidebar />
-
+      <Speakers />
+      <Sponsors />
       <Faq />
     </>
   );
