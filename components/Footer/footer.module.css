@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.header {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 3.2rem;
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.header_text {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 0 3.2rem 3.2rem 3.2rem;
+  margin-top: 0;
+}
+
+.logo_text {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 0 3.2rem 3.2rem 3.2rem;
+  margin-top: 3rem;
+}
+
+.header span {
+  color: white;
+}
+
+.half_background {
+  background: linear-gradient(to top, #4384f2 50%, transparent 50%);
+}
+
+.background {
+  background-color: #f6f6f6;
+  padding-bottom: 3.4rem;
+  margin-left: 94px;
+  overflow-x: hidden;
+}
+
+.pre_head{
+    color: #3DDB83;
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post_head{
+    color: #4383F2;
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 308px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.logo_main{
+  padding-top: 132px;
+}
+
+.text_img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding-top: 94px;
+  width: 308px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.logo_img_wrapper {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding-top: 94px;
+  width: 308px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.title{
+    align-items: center;
+    justify-content: center;
+    color: #0E2E49;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.social{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.space{
+    padding: 10px;   
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4384F2;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.button{
+  font-family: 'Source Code Pro', monospace;
+}
+
+.contact{
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .background {
+    margin-left: 0;
+  }
+}

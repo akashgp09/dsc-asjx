@@ -5,6 +5,8 @@ import Speakers from "../components/Speakers/speakers";
 import Sponsors from "../components/Sponsors/sponsors";
 import Faq from "../components/Faq/faq";
 import Rules from "../components/Rules/rules";
+import Intro from "../components/Intro/intro";
+import Footer from "../components/Footer/footer";
 
 export default function Home() {
   return (
@@ -32,11 +34,13 @@ export default function Home() {
         />
       </Head>
       <Sidebar />
+      <Intro />
       <Schedule />
       <Rules />
       <Speakers />
       <Sponsors />
       <Faq />
+      <Footer />
     </>
   );
 }
