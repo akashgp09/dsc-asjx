@@ -201,3 +201,84 @@
     font-size: 0.7rem;
   }
 }
+@media screen and (max-width: 522px) {
+  .timeline ul li .content {
+    width: 34vw;
+  }
+  .timeline ul li .content:before {
+    width: 70px;
+  }
+  .timeline ul li:nth-child(even) .content {
+    left: calc(-35vw - 40px);
+  }
+  .timeline ul li .content:after {
+    left: 16.5%;
+  }
+  .timeline ul li .test:after {
+    right: 7%;
+    left: auto;
+  }
+  .timeline ul li .content .date {
+    font-size: 0.9rem;
+  }
+  .timeline ul li .content p {
+    font-size: 0.7rem;
+  }
+  .timeline ul li .content {
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 438px) {
+  .timeline ul li .content {
+    width: 34vw;
+  }
+  .timeline ul li .content:before {
+    width: 70px;
+  }
+  .timeline ul li:nth-child(even) .content {
+    left: calc(-35vw - 40px);
+  }
+  .timeline ul li .content:after {
+    left: 20.5%;
+  }
+  .timeline ul li .test:after {
+    right: 8.5%;
+    left: auto;
+  }
+  .timeline ul li .content .date {
+    font-size: 0.9rem;
+  }
+  .timeline ul li .content p {
+    font-size: 0.7rem;
+  }
+  .timeline ul li .content {
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .timeline ul li .content {
+    width: 34vw;
+  }
+  .timeline ul li .content:before {
+    width: 70px;
+  }
+  .timeline ul li:nth-child(even) .content {
+    left: calc(-35vw - 40px);
+  }
+  .timeline ul li .content:after {
+    left: 23.5%;
+  }
+  .timeline ul li .test:after {
+    right: 9.5%;
+    left: auto;
+  }
+  .timeline ul li .content .date {
+    font-size: 0.8rem;
+  }
+  .timeline ul li .content p {
+    font-size: 0.6rem;
+  }
+  .timeline ul li .content {
+    padding: 20px 0px;
+  }
+}

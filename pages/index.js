@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Sidebar from "../components/Sidebar/sidebar";
+import Schedule from "../components/Schedule/schedule";
 import Speakers from "../components/Speakers/speakers";
 import Sponsors from "../components/Sponsors/sponsors";
 import Faq from "../components/Faq/faq";
@@ -31,6 +32,7 @@ export default function Home() {
         />
       </Head>
       <Sidebar />
+      <Schedule />
       <Rules />
       <Speakers />
       <Sponsors />
