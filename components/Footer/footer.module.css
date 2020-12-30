@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
 .header {
   text-align: center;
   font-size: 3.2rem;
@@ -37,24 +35,22 @@
   overflow-x: hidden;
 }
 
-.pre_head{
-    color: #3DDB83;
-    font-size: 22px;
-    font-family: 'Source Code Pro', monospace;
-    margin-left: 412px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.pre_head {
+  color: #3ddb83;
+  font-size: 22px;
+  margin-left: 412px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.post_head{
-    color: #4383F2;
-    font-size: 22px;
-    font-family: 'Source Code Pro', monospace;
-    margin-left: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.post_head {
+  color: #4383f2;
+  font-size: 22px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo_img_wrapper {
@@ -67,8 +63,11 @@
   overflow: hidden;
 }
 
-.logo_main{
+.logo_main {
   padding-top: 132px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .text_img_wrapper {
@@ -94,54 +93,91 @@
   overflow: hidden;
 }
 
-.title{
-    align-items: center;
-    justify-content: center;
-    color: #0E2E49;
-    font-size: 24px;
-    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-    width: 100%;
-    padding-top: 1rem;
+.title {
+  align-items: center;
+  justify-content: center;
+  color: #0e2e49;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  padding-top: 1rem;
 }
 
-.social{
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-size: 24px;
-    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-    width: 100%;
-    padding-top: 1rem;
+.college_title {
+  align-items: center;
+  justify-content: center;
+  color: #0e2e49;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  padding-top: 1rem;
 }
 
-.space{
-    padding: 10px;   
+.social {
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  padding-top: 1rem;
 }
 
-.date{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #4384F2;
-    font-size: 24px;
-    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-    width: 100%;
-    padding-top: 2rem;
+.space {
+  padding: 10px;
 }
 
-.button{
-  font-family: 'Source Code Pro', monospace;
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4384f2;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
 }
 
-.contact{
-    margin-top: 2rem;
+.contact {
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
   .background {
     margin-left: 0;
+  }
+  .social {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .title {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 442px) {
+  .title {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .college_title {
+    font-size: 1.3rem;
+  }
+  .date {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 417px) {
+  .college_title {
+    font-size: 1.15rem;
+  }
+  .date {
+    font-size: 1.3rem;
+  }
+  .title {
+    font-size: 1rem;
   }
 }
