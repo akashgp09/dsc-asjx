@@ -36,3 +36,45 @@ a {
 * {
   box-sizing: border-box;
 }
+.progress_dot1:before {
+  background: #fff !important;
+  animation: none !important;
+}
+
+.progress_dot2:before {
+  background: #fff !important;
+  animation: none !important;
+}
+
+.progress_dot3:before {
+  background: #fff !important;
+  animation: none !important;
+}
+
+.progress_dot4:before {
+  background: #fff !important;
+  animation: none !important;
+}
+
+.progress_dot5:before {
+  background: #fff !important;
+  animation: none !important;
+}
+
+.progress_dot6:before {
+  background: #fff !important;
+  animation: none !important;
+}
+
+.progress_dot7:before {
+  background: #fff !important;
+  animation: none !important;
+}
+:root {
+  --schedule_font: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    --schedule_font: 0.6rem;
+  }
+}

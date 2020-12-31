@@ -13,26 +13,18 @@ export default function Sponsors() {
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-center`}
             >
               <img
-                src="/images/sponsors/cn.png"
+                src="/images/sponsors/cn_new.png"
                 className={styles.sponsor_img_size}
               />
             </div>
           </div>
         </div>
-        <div className={styles.sponsor_type}>Platinum Sponsors</div>
+        <div className={styles.sponsor_type}>Platinum Sponsor</div>
         <div className="container text-center">
           <div className="row justify-content-center">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <img
                 src="/images/sponsors/devfolio.png"
-                className={styles.sponsor_img_size}
-              />
-            </div>
-            <div
-              className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-end`}
-            >
-              <img
-                src="/images/sponsors/cb.png"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -65,12 +57,20 @@ export default function Sponsors() {
             </div>
           </div>
         </div>
-        <div className={styles.sponsor_type}>Silver Sponsor</div>
+        <div className={styles.sponsor_type}>Silver Sponsors</div>
         <div className="container text-center">
           <div className="row justify-content-center">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <img
                 src="/images/sponsors/hc.png"
+                className={styles.sponsor_img_size}
+              />
+            </div>
+            <div
+              className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-end`}
+            >
+              <img
+                src="/images/sponsors/cb.png"
                 className={styles.sponsor_img_size}
               />
             </div>
