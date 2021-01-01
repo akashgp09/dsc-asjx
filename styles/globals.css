@@ -75,6 +75,9 @@ a {
 }
 @media only screen and (max-width: 600px) {
   :root {
-    --schedule_font: 0.6rem;
+    --schedule_font: 1rem;
   }
+}
+.active_tab {
+  fill: #3ddb83;
 }
