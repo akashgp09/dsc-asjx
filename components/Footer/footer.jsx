@@ -17,32 +17,31 @@ export default function Footer() {
         <div className="container-fluid">
           <div className="row">
             <div className={styles.college_title}>
-              School of Computer Engineering, KIIT University, Bhubaneswar,
-              751024
+              KIIT University, Bhubaneswar, 751024
             </div>
             <div className={styles.date}>Email: dsckiit@gmail.com</div>
           </div>
           <div className={styles.contact}>
             <div className={styles.title}>
-              Arpit Mishra(ASJX Organiser):8336026764
+              <a href="https://www.linkedin.com/in/mishrrag/">Arpit Mishra(ASJX Organiser)</a>
             </div>
             <div className={styles.title}>
-              Praddyum Verma(DSC Lead):9956876609
+              <a href="https://www.linkedin.com/in/praddyum/" className={styles.link}>Praddyum Verma(DSC Lead)</a>
             </div>
           </div>
           <div className="row">
             <div className={styles.social}>
               <span className={styles.space}>
-                <LinkedInIcon style={{ fontSize: "2.2rem" }} />
+                <a href="https://www.linkedin.com/company/dsckiit/"><LinkedInIcon style={{ fontSize: "2.2rem" }} /></a>
               </span>
               <span className={styles.space}>
-                <InstagramIcon style={{ fontSize: "2.2rem" }} />
+                <a href="https://www.instagram.com/dsckiit/"><InstagramIcon style={{ fontSize: "2.2rem" }} /></a>
               </span>
               <span className={styles.space}>
-                <FaDiscord style={{ fontSize: "2.2rem" }} />
+                <a href="https://discord.gg/pqUU6Znd"><FaDiscord style={{ fontSize: "2.2rem" }} /></a>
               </span>
               <span className={styles.space}>
-                <FacebookIcon style={{ fontSize: "2.2rem" }} />
+                <a href="https://www.facebook.com/dsckiit"><FacebookIcon style={{ fontSize: "2.2rem" }} /></a>
               </span>
             </div>
           </div>
