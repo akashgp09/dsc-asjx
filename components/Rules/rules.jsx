@@ -45,7 +45,7 @@ export default function Rules() {
             </div>
             <div className="row">
                 <div className={styles.rule}>
-                    <span className={styles.number}>7.</span>Submission Format for Devfolio/<a href="https://guide.devfolio.co/during-hackathon/submissions-on-devfolio">Click Here</a>
+                    <span className={styles.number}>7.</span> Submission Format for Devfolio/<a href="https://guide.devfolio.co/during-hackathon/submissions-on-devfolio">Click Here</a>
                     <div className={styles.alpha}>a. APK file</div>
                     <div className={styles.alpha}>b. Project Summary on DevFolio</div>
                     <div className={styles.alpha}>c. GitHub link(Public Repo)</div>
