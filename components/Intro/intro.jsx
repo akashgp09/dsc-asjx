@@ -93,7 +93,7 @@ export default function Intro() {
           </span>
         </div>
         <div className="row">
-          <div className={styles.title}>KIIT's largest android hackathon</div>
+          <div className={styles.android}><img src="/images/android.gif" height="250" width="270" className={styles.img}/>KIIT's largest Android Hackathon<img src="/images/android2.gif" height="250" width="270" className={styles.img}/></div>
           <div className={styles.date}>
             11th January 2021 - 22nd January 2021
           </div>
