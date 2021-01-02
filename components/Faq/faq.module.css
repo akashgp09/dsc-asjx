@@ -7,10 +7,10 @@
   color: white;
 }
 .half_background {
-  background: linear-gradient(to top, #3ddb83 50%, transparent 50%);
+  background: linear-gradient(to top, #4384f2 50%, transparent 50%);
 }
 .background {
-  background-color: #4384f2;
+  background-color: #3ddb83;
   padding-bottom: 3.4rem;
   margin-left: 94px;
 }

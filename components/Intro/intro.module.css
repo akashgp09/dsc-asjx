@@ -180,6 +180,20 @@
     padding-top: 130px;
   }
 }
+@media only screen and (max-width: 650px) {
+  .registration {
+    font-size: 5.5vw;
+  }
+  .countTimer .clockBox {
+    width: 13vw;
+    height: 13vw;
+    font-size: 4.5vw;
+  }
+  .countTimer .clockBox::after {
+    font-size: 2.2vw;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .background {
     margin-left: 0;
@@ -199,6 +213,14 @@
   .header_text {
     font-size: 1.2rem;
   }
+  .countTimer .clockBox {
+    width: 13vw;
+    height: 14vw;
+    font-size: 6vw;
+  }
+  .countTimer .clockBox::after {
+    font-size: 2.5vw;
+  }
 }
 @media only screen and (max-width: 420px) {
   .title {
@@ -209,5 +231,13 @@
   }
   .header_text {
     font-size: 1rem;
+  }
+  .countTimer .clockBox {
+    width: 16vw;
+    height: 16vw;
+    font-size: 7vw;
+  }
+  .countTimer .clockBox::after {
+    font-size: 3vw;
   }
 }

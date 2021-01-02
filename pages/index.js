@@ -5,6 +5,7 @@ import Speakers from "../components/Speakers/speakers";
 import Sponsors from "../components/Sponsors/sponsors";
 import Faq from "../components/Faq/faq";
 import Rules from "../components/Rules/rules";
+import Prizes from "../components/Prize/prizes";
 import Intro from "../components/Intro/intro";
 import Footer from "../components/Footer/footer";
 
@@ -37,8 +38,11 @@ export default function Home() {
       <Intro />
       <Schedule />
       <Rules />
+
       <Speakers />
+
       <Sponsors />
+      <Prizes />
       <Faq />
       <Footer />
     </>

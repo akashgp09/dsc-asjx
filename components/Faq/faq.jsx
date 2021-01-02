@@ -30,7 +30,7 @@ export default function SimpleAccordion() {
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
-                  style={{ background: "#4384F2", borderRadius: "50%" }}
+                  style={{ background: "#3ddb83", borderRadius: "50%" }}
                 />
               }
               aria-controls="panel1a-content"
@@ -53,7 +53,7 @@ export default function SimpleAccordion() {
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
-                  style={{ background: "#4384F2", borderRadius: "50%" }}
+                  style={{ background: "#3ddb83", borderRadius: "50%" }}
                 />
               }
               aria-controls="panel2a-content"
@@ -76,7 +76,7 @@ export default function SimpleAccordion() {
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
-                  style={{ background: "#4384F2", borderRadius: "50%" }}
+                  style={{ background: "#3ddb83", borderRadius: "50%" }}
                 />
               }
               aria-controls="panel2a-content"
@@ -97,7 +97,7 @@ export default function SimpleAccordion() {
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
-                  style={{ background: "#4384F2", borderRadius: "50%" }}
+                  style={{ background: "#3ddb83", borderRadius: "50%" }}
                 />
               }
               aria-controls="panel2a-content"
@@ -120,7 +120,7 @@ export default function SimpleAccordion() {
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
-                  style={{ background: "#4384F2", borderRadius: "50%" }}
+                  style={{ background: "#3ddb83", borderRadius: "50%" }}
                 />
               }
               aria-controls="panel2a-content"
