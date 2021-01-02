@@ -69,7 +69,9 @@ const Schedule = () => {
             >
               <div className={styles.content}>
                 <span className={styles.date}>
-                  <time className={`${styles.tooltip} ${styles.day1_left}`}>
+                  <time
+                    className={`${styles.unselectable} ${styles.tooltip} ${styles.day1_left}`}
+                  >
                     11th January 2021
                   </time>
                 </span>
@@ -78,7 +80,9 @@ const Schedule = () => {
             <li id="day2">
               <div className={`${styles.content} ${styles.test}`}>
                 <span className={styles.date}>
-                  <time className={`${styles.tooltip} ${styles.day2_right}`}>
+                  <time
+                    className={`${styles.unselectable} ${styles.tooltip} ${styles.day2_right}`}
+                  >
                     14th January 2021
                   </time>
                 </span>
@@ -87,7 +91,9 @@ const Schedule = () => {
             <li id="day3">
               <div className={styles.content}>
                 <span className={styles.date}>
-                  <time className={`${styles.tooltip} ${styles.day3_left}`}>
+                  <time
+                    className={`${styles.unselectable} ${styles.tooltip} ${styles.day3_left}`}
+                  >
                     15th January 2021
                   </time>
                 </span>
@@ -96,7 +102,9 @@ const Schedule = () => {
             <li id="day4">
               <div className={`${styles.content} ${styles.test}`}>
                 <span className={styles.date}>
-                  <time className={`${styles.tooltip} ${styles.day4_right}`}>
+                  <time
+                    className={`${styles.unselectable} ${styles.tooltip} ${styles.day4_right}`}
+                  >
                     16th January 2021
                   </time>
                 </span>
@@ -105,7 +113,9 @@ const Schedule = () => {
             <li id="day5">
               <div className={styles.content}>
                 <span className={styles.date}>
-                  <time className={`${styles.tooltip} ${styles.day5_left}`}>
+                  <time
+                    className={`${styles.unselectable} ${styles.tooltip} ${styles.day5_left}`}
+                  >
                     18th January 2021
                   </time>
                 </span>
@@ -114,7 +124,9 @@ const Schedule = () => {
             <li id="day6">
               <div className={`${styles.content} ${styles.test}`}>
                 <span className={styles.date}>
-                  <time className={`${styles.tooltip} ${styles.day6_right}`}>
+                  <time
+                    className={`${styles.unselectable} ${styles.tooltip} ${styles.day6_right}`}
+                  >
                     21st January 2021
                   </time>
                 </span>
@@ -123,7 +135,9 @@ const Schedule = () => {
             <li id="day7">
               <div className={styles.content}>
                 <span className={styles.date}>
-                  <time className={`${styles.tooltip} ${styles.day7_left}`}>
+                  <time
+                    className={`${styles.unselectable} ${styles.tooltip} ${styles.day7_left}`}
+                  >
                     22nd January 2021
                   </time>
                 </span>
