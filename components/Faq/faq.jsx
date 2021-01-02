@@ -42,9 +42,7 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                The hackathon will be conducted online from 11th to 22nd Jan 2021.
               </span>
             </AccordionDetails>
           </Accordion>
@@ -65,9 +63,7 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                The project submissions will be done on DevFolio. Join our <a href="https://discord.gg/pqUU6Znd">discord</a> to know more.
               </span>
             </AccordionDetails>
           </Accordion>
@@ -85,10 +81,8 @@ export default function SimpleAccordion() {
               <span className={classes.heading}>How much does it cost?</span>
             </AccordionSummary>
             <AccordionDetails>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+              <span className={styles.gif}>
+                <img src="/images/meme.gif" className={styles.gif}/>
               </span>
             </AccordionDetails>
           </Accordion>
@@ -109,9 +103,7 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                Yes.
               </span>
             </AccordionDetails>
           </Accordion>
@@ -130,9 +122,7 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                You just need to be in your college’s undergraduate program.
               </span>
             </AccordionDetails>
           </Accordion>
