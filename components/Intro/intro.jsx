@@ -107,6 +107,7 @@ export default function Intro() {
               style={{ backgroundColor: " #4384F2" }}
             >
               Register with Devfolio
+              {/* Register with <img src="/images/Devfolio-White.png" height="30px" width="150px"/> */}
             </DevfolioButton>
           </div>
         </div>
