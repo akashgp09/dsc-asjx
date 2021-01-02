@@ -1,0 +1,88 @@
+.header {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 3.2rem;
+}
+.header span {
+  color: white;
+}
+.half_background {
+  background: linear-gradient(to top, #3ddb83 50%, transparent 50%);
+}
+.background {
+  background-color: #4384f2;
+  padding-bottom: 3.4rem;
+  margin-left: 94px;
+}
+
+.prize_img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 210px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.prize_img_size {
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+  text-decoration: none;
+}
+.prize_imgbig_size {
+  width: 20%;
+  max-width: 150px;
+  height: auto;
+  text-decoration: none;
+}
+.prize_type {
+  font-weight: 900;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0.5rem auto 4.5rem auto;
+  color: #fff;
+}
+.prize_wrapper {
+  border: 5px solid #fff;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.prize_wrapper p {
+  color: #4384f2;
+}
+.prize_label {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.sponsors_prize {
+  color: #4384f2;
+}
+@media only screen and (max-width: 1027px) {
+  .prize_label {
+    font-size: 1.05rem;
+    font-weight: 900;
+  }
+  .prize_wrapper p {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .prize_label {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  .prize_wrapper p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .background {
+    margin-left: 0;
+  }
+  .prize_type {
+    font-size: 1.5rem;
+    margin: 0.5rem auto 3rem auto;
+  }
+}
