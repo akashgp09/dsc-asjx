@@ -14,16 +14,16 @@ export default function Speakers() {
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
-                  src="/images/speakers/sm.png"
-                  alt="Card image cap"
+                  src="/images/speakers/coming-soon.png"
+                  alt="Speaker 1"
                 />
                 <div className="card-body text-center">
                   <h5 className={`${styles.speaker_name} card-title`}>
-                    Steve Rogers
+                    Speaker 1
                   </h5>
                   <p className={`${styles.speaker_description} card-text`}>
-                    Captain America
-                    <br /> Avengers
+                    SDE
+                    <br /> Company
                   </p>
                 </div>
               </div>
@@ -34,16 +34,16 @@ export default function Speakers() {
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
-                  src="/images/speakers/sm.png"
-                  alt="Card image cap"
+                  src="/images/speakers/coming-soon.png"
+                  alt="Speaker 2"
                 />
                 <div className="card-body text-center">
                   <h5 className={`${styles.speaker_name} card-title`}>
-                    Steve Rogers
+                    Speaker 2
                   </h5>
                   <p className={`${styles.speaker_description} card-text`}>
-                    Captain America
-                    <br /> Avengers
+                    SDE
+                    <br /> Company
                   </p>
                 </div>
               </div>
@@ -54,16 +54,16 @@ export default function Speakers() {
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
-                  src="/images/speakers/sm.png"
-                  alt="Card image cap"
+                  src="/images/speakers/coming-soon.png"
+                  alt="Speaker 3"
                 />
                 <div className="card-body text-center">
                   <h5 className={`${styles.speaker_name} card-title`}>
-                    Steve Rogers
+                    Speaker 3
                   </h5>
                   <p className={`${styles.speaker_description} card-text`}>
-                    Captain America
-                    <br /> Avengers
+                    SDE
+                    <br /> Comapny
                   </p>
                 </div>
               </div>
