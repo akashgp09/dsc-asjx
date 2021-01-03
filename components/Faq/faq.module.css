@@ -3,30 +3,31 @@
   font-size: 3.2rem;
   padding: 3.2rem;
 }
-
 .header span {
   color: white;
 }
-
 .half_background {
   background: linear-gradient(to top, #4384f2 50%, transparent 50%);
 }
-
 .background {
   background-color: #3ddb83;
   padding-bottom: 3.4rem;
   margin-left: 94px;
 }
 
-.gif{
+.gif {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
-
 @media only screen and (max-width: 600px) {
   .background {
     margin-left: 0;
+  }
+  .gif {
+    max-width: 380px;
   }
 }
