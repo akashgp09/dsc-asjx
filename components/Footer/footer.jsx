@@ -49,7 +49,7 @@ export default function Footer() {
                 </a>
               </span>
               <span className={styles.space}>
-                <a href="https://discord.gg/pqUU6Znd">
+                <a href="https://discord.gg/4mwRt8SxCm">
                   <FaDiscord style={{ fontSize: "2.2rem" }} />
                 </a>
               </span>

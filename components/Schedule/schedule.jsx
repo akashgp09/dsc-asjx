@@ -17,7 +17,7 @@ const progress = () => {
       flag = true;
     }
   }
-  if (currentDate > 10 || flag) {
+  if (currentDate > 5 || flag) {
     document.getElementById("day1").style.backgroundColor = "red";
     document.getElementById("day1").classList.add("progress_dot1");
   }
@@ -72,7 +72,7 @@ const Schedule = () => {
                   <time
                     className={`${styles.unselectable} ${styles.tooltip} ${styles.day1_left}`}
                   >
-                    11th January 2021
+                    6th January 2021
                   </time>
                 </span>
               </div>

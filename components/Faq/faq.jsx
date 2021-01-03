@@ -42,7 +42,8 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span>
-                The hackathon will be conducted online from 11th to 22nd Jan 2021.
+                The hackathon will be conducted online from 11th to 22nd Jan
+                2021.
               </span>
             </AccordionDetails>
           </Accordion>
@@ -63,7 +64,9 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span>
-                The project submissions will be done on DevFolio. Join our <a href="https://discord.gg/pqUU6Znd">discord</a> to know more.
+                The project submissions will be done on DevFolio. Join our{" "}
+                <a href="https://discord.gg/4mwRt8SxCm">discord</a> to know
+                more.
               </span>
             </AccordionDetails>
           </Accordion>
@@ -82,7 +85,7 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span className={styles.gif}>
-                <img src="/images/meme.gif" className={styles.gif} height="250px" width="400px"/>
+                <img src="/images/meme.gif" className={styles.gif} />
               </span>
             </AccordionDetails>
           </Accordion>
@@ -102,9 +105,7 @@ export default function SimpleAccordion() {
               </span>
             </AccordionSummary>
             <AccordionDetails>
-              <span>
-                Yes.
-              </span>
+              <span>Yes.</span>
             </AccordionDetails>
           </Accordion>
           <br />
