@@ -105,7 +105,7 @@ export default function Intro() {
               src="/images/android2.gif"
               height="250"
               width="270"
-              className={styles.img}
+              className={styles.img1}
             />
           </div>
           <div className={styles.date}>
