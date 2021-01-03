@@ -62,7 +62,7 @@ export default function Sponsors() {
           <div className="row justify-content-center">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <img
-                src="/images/sponsors/hc.png"
+                src="/images/sponsors/cb.png"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -70,7 +70,7 @@ export default function Sponsors() {
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-end`}
             >
               <img
-                src="/images/sponsors/cb.png"
+                src="/images/sponsors/hc.png"
                 className={styles.sponsor_img_size}
               />
             </div>

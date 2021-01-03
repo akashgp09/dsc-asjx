@@ -202,6 +202,14 @@
 .countTimer .clockBox:nth-child(4) {
   margin-right: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .img1{
+      visibility: hidden;
+      display: none;
+  }
+}
+
 @media only screen and (max-width: 720px) {
   .title {
     font-size: 1.8rem;
