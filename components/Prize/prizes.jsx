@@ -87,8 +87,8 @@ export default function Prizes() {
               className={`col-md-4 col-lg-3 mb-5 col-9 card mr-md-1 ${styles.prize_img_wrapper}`}
             >
               <img
-                src="/images/sponsors/t.png"
-                className={styles.prize_imgbig_size}
+                src="/images/sponsors/tezos.png"
+                className={styles.prize_img_size}
               />
               <br />
               <p className={styles.sponsors_prize}>
@@ -101,8 +101,8 @@ export default function Prizes() {
               className={`col-md-4 col-lg-3 mb-5 col-9 card  mx-md-1 ${styles.prize_img_wrapper} align-self-center`}
             >
               <img
-                src="/images/sponsors/m.png"
-                className={styles.prize_imgbig_size}
+                src="/images/sponsors/matic.png"
+                className={styles.prize_img_size}
               />
               <br />
               <p className={styles.sponsors_prize}>

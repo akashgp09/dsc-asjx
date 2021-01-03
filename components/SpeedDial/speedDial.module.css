@@ -1,0 +1,16 @@
+.background {
+  background-color: #4384f2;
+
+  margin-left: 94px;
+}
+@media only screen and (min-width: 601px) {
+  .background {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .background {
+    margin-left: 0;
+  }
+}

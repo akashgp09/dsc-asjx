@@ -13,7 +13,7 @@ export default function Sponsors() {
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-center`}
             >
               <img
-                src="/images/sponsors/cn_new.png"
+                src="/images/sponsors/cn.png"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -35,16 +35,16 @@ export default function Sponsors() {
           <div className="row">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <img
-                src="/images/sponsors/t.png"
-                className={styles.sponsor_imgbig_size}
+                src="/images/sponsors/tezos.png"
+                className={styles.sponsor_img_size}
               />
             </div>
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-center`}
             >
               <img
-                src="/images/sponsors/m.png"
-                className={styles.sponsor_imgbig_size}
+                src="/images/sponsors/matic.png"
+                className={styles.sponsor_img_size}
               />
             </div>
             <div

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Sidebar from "../components/Sidebar/sidebar";
+import SpeedDial from "../components/SpeedDial/speedDial";
 import Schedule from "../components/Schedule/schedule";
 import Speakers from "../components/Speakers/speakers";
 import Sponsors from "../components/Sponsors/sponsors";
@@ -35,6 +36,7 @@ export default function Home() {
         />
       </Head>
       <Sidebar />
+      <SpeedDial />
       <Intro />
       <Schedule />
       <Rules />
