@@ -1,6 +1,4 @@
 import styles from "./sidebar.module.css";
-// import Link from "next/link";
-// import { useRouter } from "next/router";
 import Scrollspy from "react-scrollspy";
 const Sidebar = () => {
   return (
@@ -16,7 +14,7 @@ const Sidebar = () => {
           "faq-section",
           "footer-section",
         ]}
-        offset={-300}
+        offset={-350}
         currentClassName="is_active"
         className={styles.sidebar__nav}
       >
