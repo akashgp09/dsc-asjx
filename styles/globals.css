@@ -81,3 +81,12 @@ a {
 .is_active a i svg path {
   fill: #3ddb83;
 }
+
+.MuiSpeedDial-fab {
+  outline: 0 !important;
+  background-color: #0e2e49 !important;
+}
+.MuiFab-primary {
+  outline: 0 !important;
+  background-color: #0e2e49 !important;
+}
