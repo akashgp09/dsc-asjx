@@ -78,6 +78,10 @@
 /* Mobile Screens */
 @media only screen and (max-width: 600px) {
   .sidebar__wrapper {
+    display: none;
+  }
+
+  /* .sidebar__wrapper {
     bottom: 0;
     left: 0;
     right: 0;
@@ -101,7 +105,7 @@
   }
   .sidebar__item__link i {
     margin: auto;
-  }
+  } */
 }
 /* .active_tab {
   fill: #3ddb83;

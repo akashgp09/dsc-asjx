@@ -85,10 +85,10 @@ export default function Intro() {
           />
         </div>
         <div className={styles.header_text}>
-          <span style={{ color: "#3DDB83", fontWeight: "500" }}>
+          <span style={{ color: "#3DDB83", fontWeight: "700" }}>
             ANDROID&nbsp;&nbsp; STUDY&nbsp;&nbsp; JAM
           </span>
-          <span style={{ color: "#4384F2", fontWeight: "500" }}>
+          <span style={{ color: "#4384F2", fontWeight: "700" }}>
             &nbsp;&nbsp;&nbsp;EXTENDED
           </span>
         </div>
@@ -109,7 +109,7 @@ export default function Intro() {
             />
           </div>
           <div className={styles.date}>
-            11th January 2021 - 22nd January 2021
+            6th January 2021 - 22nd January 2021
           </div>
         </div>
         <div className="row">
