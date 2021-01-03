@@ -78,6 +78,6 @@ a {
     --schedule_font: 1rem;
   }
 }
-.active_tab {
+.is_active a i svg path {
   fill: #3ddb83;
 }
