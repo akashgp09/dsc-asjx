@@ -7,7 +7,7 @@ import { FaDiscord } from "react-icons/fa";
 export default function Footer() {
   return (
     <>
-      <div className={styles.background} id="landing-section">
+      <div className={styles.background} id="footer-section">
         <div className={styles.header}>
           <img
             src="/images/dsc-logo.svg"
@@ -23,25 +23,40 @@ export default function Footer() {
           </div>
           <div className={styles.contact}>
             <div className={styles.title}>
-              <a href="https://www.linkedin.com/in/mishrrag/">Arpit Mishra(ASJX Organiser)</a>
+              <a href="https://www.linkedin.com/in/mishrrag/">
+                Arpit Mishra(ASJX Organiser)
+              </a>
             </div>
             <div className={styles.title}>
-              <a href="https://www.linkedin.com/in/praddyum/" className={styles.link}>Praddyum Verma(DSC Lead)</a>
+              <a
+                href="https://www.linkedin.com/in/praddyum/"
+                className={styles.link}
+              >
+                Praddyum Verma(DSC Lead)
+              </a>
             </div>
           </div>
           <div className="row">
             <div className={styles.social}>
               <span className={styles.space}>
-                <a href="https://www.linkedin.com/company/dsckiit/"><LinkedInIcon style={{ fontSize: "2.2rem" }} /></a>
+                <a href="https://www.linkedin.com/company/dsckiit/">
+                  <LinkedInIcon style={{ fontSize: "2.2rem" }} />
+                </a>
               </span>
               <span className={styles.space}>
-                <a href="https://www.instagram.com/dsckiit/"><InstagramIcon style={{ fontSize: "2.2rem" }} /></a>
+                <a href="https://www.instagram.com/dsckiit/">
+                  <InstagramIcon style={{ fontSize: "2.2rem" }} />
+                </a>
               </span>
               <span className={styles.space}>
-                <a href="https://discord.gg/pqUU6Znd"><FaDiscord style={{ fontSize: "2.2rem" }} /></a>
+                <a href="https://discord.gg/pqUU6Znd">
+                  <FaDiscord style={{ fontSize: "2.2rem" }} />
+                </a>
               </span>
               <span className={styles.space}>
-                <a href="https://www.facebook.com/dsckiit"><FacebookIcon style={{ fontSize: "2.2rem" }} /></a>
+                <a href="https://www.facebook.com/dsckiit">
+                  <FacebookIcon style={{ fontSize: "2.2rem" }} />
+                </a>
               </span>
             </div>
           </div>
