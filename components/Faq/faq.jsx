@@ -82,7 +82,7 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span className={styles.gif}>
-                <img src="/images/meme.gif" className={styles.gif}/>
+                <img src="/images/meme.gif" className={styles.gif} height="250px" width="400px"/>
               </span>
             </AccordionDetails>
           </Accordion>

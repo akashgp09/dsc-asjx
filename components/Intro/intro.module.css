@@ -185,6 +185,11 @@
   height: auto;
 }
 
+.img1{
+  max-width: 100%;
+  height: auto;
+}
+
 .countTimer .clockBox:nth-child(2)::after {
   content: "Hours";
 }
@@ -235,6 +240,10 @@
   .img{
       width: 100%;
       height: auto;
+  }
+  .img1{
+      visibility: hidden;
+      display: none;
   }
 }
 
