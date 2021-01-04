@@ -14,6 +14,7 @@ export default function Sponsors() {
             >
               <img
                 src="/images/sponsors/cn.png"
+                alt="Coding Ninja"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -25,6 +26,7 @@ export default function Sponsors() {
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <img
                 src="/images/sponsors/devfolio.png"
+                alt="Devfolio"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -36,6 +38,7 @@ export default function Sponsors() {
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <img
                 src="/images/sponsors/tezos.png"
+                alt="Tezos"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -44,6 +47,7 @@ export default function Sponsors() {
             >
               <img
                 src="/images/sponsors/matic.png"
+                alt="Matic"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -52,6 +56,7 @@ export default function Sponsors() {
             >
               <img
                 src="/images/sponsors/portis.png"
+                alt="Portis"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -63,6 +68,7 @@ export default function Sponsors() {
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <img
                 src="/images/sponsors/cb.png"
+                alt="Coding Blocks"
                 className={styles.sponsor_img_size}
               />
             </div>
@@ -71,6 +77,7 @@ export default function Sponsors() {
             >
               <img
                 src="/images/sponsors/hc.png"
+                alt="HackClub"
                 className={styles.sponsor_img_size}
               />
             </div>

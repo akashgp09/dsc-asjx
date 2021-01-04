@@ -11,6 +11,7 @@ export default function Footer() {
         <div className={styles.header}>
           <img
             src="/images/dsc-logo.svg"
+            alt="DSC KIIT"
             className={(styles.logo_img_size, styles.logo_main)}
           />
         </div>
