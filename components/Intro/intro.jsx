@@ -78,11 +78,20 @@ export default function Intro() {
   return (
     <>
       <div className={styles.background} id="landing-section">
-        <img src="/images/android.gif" className={styles.android1} />
-        <img src="/images/android2.gif" className={styles.android2} />
+        <img
+          src="/images/android.gif"
+          alt="Android"
+          className={styles.android1}
+        />
+        <img
+          src="/images/android2.gif"
+          alt="Android"
+          className={styles.android2}
+        />
         <div className={styles.header}>
           <img
             src="/images/asjx-logo.svg"
+            alt="ASJ-X Logo"
             className={(styles.logo_img_size, styles.logo_main)}
           />
         </div>
@@ -96,7 +105,11 @@ export default function Intro() {
         </div>
         <div className="row">
           <div className={styles.android_img_wrapper}>
-            <img src="/images/android.gif" className={styles.android_small} />
+            <img
+              src="/images/android.gif"
+              alt="Android"
+              className={styles.android_small}
+            />
           </div>
           <div className={styles.title}>KIIT's largest android hackathon</div>
           <div className={styles.date}>
@@ -127,7 +140,11 @@ export default function Intro() {
         </div>
 
         <div className={styles.logo_text}>
-          <img src="/images/dsc-logo.svg" className={styles.text_img_size} />
+          <img
+            src="/images/dsc-logo.svg"
+            alt="DSC KIIT"
+            className={styles.text_img_size}
+          />
         </div>
 
         <p className={styles.registration} id="registration_label"></p>

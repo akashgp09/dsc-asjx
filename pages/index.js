@@ -9,21 +9,35 @@ import Rules from "../components/Rules/rules";
 import Prizes from "../components/Prize/prizes";
 import Intro from "../components/Intro/intro";
 import Footer from "../components/Footer/footer";
-
+export const META = {
+  title: "ASJ-X Hackathon",
+  name: "DSC KIIT",
+  website: "https://asjx.dsckiit.tech",
+  description:
+    "DSC KIIT is organizing an Inter-University Hackathon ASJ-X. The goal of the hackathon is to pick a problem and come up with an application to help tackle it.",
+  thumbnail: "https://i.imgur.com/q5YGcDd.png",
+};
 export default function Home() {
   return (
     <>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        <meta name="description" content="DSC ASJ-X" />
-        <meta
-          property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            "DSC ASJ-X"
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
-        <meta name="og:title" content="DSC ASJ-X" />
+        <meta name="description" content={META.description} />
+        <meta name="copyright" content={META.name} />
+        <meta name="robots" content="index,follow" />
+        <meta name="url" content={META.website} />
+        <meta name="identifier-URL" content={META.website} />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:site_name" content={META.title} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={META.website} />
+        <meta property="og:image" content={META.thumbnail} />
         <meta name="twitter:card" content="summary_large_image" />
+        <title>{META.title}</title>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -40,9 +54,7 @@ export default function Home() {
       <Intro />
       <Schedule />
       <Rules />
-
       <Speakers />
-
       <Sponsors />
       <Prizes />
       <Faq />

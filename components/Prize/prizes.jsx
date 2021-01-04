@@ -3,14 +3,24 @@ export default function Prizes() {
   return (
     <>
       <div className={styles.background} id="prizes-section">
-        <img src="/images/trophyLeft.png" className={styles.trophyLeft} />
-        <img src="/images/trophyRight.png" className={styles.trophyRight} />
+        <img
+          src="/images/trophyLeft.png"
+          alt="Trophy"
+          className={styles.trophyLeft}
+        />
+        <img
+          src="/images/trophyRight.png"
+          alt="Trophy"
+          className={styles.trophyRight}
+        />
         <img
           src="/images/party-popper-left.png"
+          alt="Party Popper"
           className={styles.popperLeft}
         />
         <img
           src="/images/party-popper-right.png"
+          alt="Party Popper"
           className={styles.popperRight}
         />
         <div className={styles.bar_left}></div>
@@ -100,6 +110,7 @@ export default function Prizes() {
             >
               <img
                 src="/images/sponsors/tezos.png"
+                alt="Tezos"
                 className={styles.prize_img_size}
               />
               <br />
@@ -114,6 +125,7 @@ export default function Prizes() {
             >
               <img
                 src="/images/sponsors/matic.png"
+                alt="Matic"
                 className={styles.prize_img_size}
               />
               <br />
@@ -127,6 +139,7 @@ export default function Prizes() {
             >
               <img
                 src="/images/sponsors/portis.png"
+                alt="Portis"
                 className={styles.prize_img_size}
               />
               <br />
