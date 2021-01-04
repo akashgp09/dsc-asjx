@@ -6,16 +6,16 @@ export default function Prizes() {
         <div className={styles.header}>
           <span className={styles.half_background}>Prizes</span>
         </div>
-        <div className={styles.prize_type}>
+        <div className={styles.prize_type_head}>
           Prizes to win from a pool worth 8Lac
         </div>
         <div className="container text-center">
           <div className="row d-flex justify-content-around mt-5">
             <div
-              className={`col-md-4 col-lg-3 mb-5 col-9 mr-md-1   ${styles.prize_img_wrapper} ${styles.prize_wrapper}`}
+              className={`col-md-4 col-lg-3 mb-5 col-9 mr-md-1   ${styles.prize_img_wrapper_position} ${styles.prize_wrapper_position}`}
             >
               <p>
-                <span className={styles.prize_label}>1st Prize</span>
+                <span className={styles.prize_label_position}>1st Prize</span>
                 <br />
                 <span>
                   -Goodies by Coding Ninjas
@@ -28,10 +28,10 @@ export default function Prizes() {
               </p>
             </div>
             <div
-              className={`col-md-4 col-lg-3 mb-5 col-9   mx-md-1  ${styles.prize_img_wrapper} ${styles.prize_wrapper} align-self-center`}
+              className={`col-md-4 col-lg-3 mb-5 col-9   mx-md-1  ${styles.prize_img_wrapper_position} ${styles.prize_wrapper_position} align-self-center`}
             >
               <p>
-                <span className={styles.prize_label}>2nd Prize</span>
+                <span className={styles.prize_label_position}>2nd Prize</span>
                 <br />
 
                 <span>
@@ -45,10 +45,10 @@ export default function Prizes() {
               </p>
             </div>
             <div
-              className={`col-md-4 col-lg-3 mb-5 col-9  ml-md-1  ${styles.prize_img_wrapper} ${styles.prize_wrapper} align-self-end`}
+              className={`col-md-4 col-lg-3 mb-5 col-9  ml-md-1  ${styles.prize_img_wrapper_position} ${styles.prize_wrapper_position} align-self-end`}
             >
               <p>
-                <span className={styles.prize_label}>3rd Prize</span>
+                <span className={styles.prize_label_position}>3rd Prize</span>
                 <br />
                 <span>
                   -Goodies by Coding Ninjas
