@@ -117,7 +117,7 @@ export default function Intro() {
             <DevfolioButton
               letiant="contained"
               size="large"
-              href="https://devfolio.co/home/"
+              href="https://asjx.devfolio.co/"
               style={{ backgroundColor: " #4384F2" }}
             >
               <svg
