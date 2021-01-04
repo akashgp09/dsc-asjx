@@ -3,11 +3,23 @@ export default function Prizes() {
   return (
     <>
       <div className={styles.background} id="prizes-section">
+        <img src="/images/trophyLeft.png" className={styles.trophyLeft} />
+        <img src="/images/trophyRight.png" className={styles.trophyRight} />
+        <img
+          src="/images/party-popper-left.png"
+          className={styles.popperLeft}
+        />
+        <img
+          src="/images/party-popper-right.png"
+          className={styles.popperRight}
+        />
+        <div className={styles.bar_left}></div>
+        <div className={styles.bar_right}></div>
         <div className={styles.header}>
           <span className={styles.half_background}>Prizes</span>
         </div>
         <div className={styles.prize_type_head}>
-          Prizes to win from a pool worth 8Lac
+          Prize pool worth ₹8,00,000!
         </div>
         <div className="container text-center">
           <div className="row d-flex justify-content-around mt-5">
