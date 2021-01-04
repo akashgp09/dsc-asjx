@@ -7,8 +7,11 @@ export default function Prizes() {
           <span className={styles.half_background}>Prizes</span>
         </div>
         <div className={styles.prize_type_head}>
+          <img src="/images/Rectangle.svg" align="left" className={styles.r1} />
           Prizes to win from a pool worth 8Lac
+          <img src="/images/Rectangle.svg" align="right" className={styles.r2} />
         </div>
+        <img src="/images/small-trophy.svg" align="left" className={styles.smalltrophy}/>
         <div className="container text-center">
           <div className="row d-flex justify-content-around mt-5">
             <div
@@ -62,6 +65,7 @@ export default function Prizes() {
             </div>
           </div>
         </div>
+        <img src="/images/big-trophy.svg" className={styles.bigtrophy} align="right"/>
         <div className="container text-center">
           <div className="row justify-content-center ">
             <div
@@ -80,7 +84,6 @@ export default function Prizes() {
             </div>
           </div>
         </div>
-
         <div className="container text-center">
           <div className="row d-flex justify-content-around">
             <div

@@ -15,6 +15,26 @@
   margin-left: 94px;
 }
 
+.r1{
+  vertical-align: top;
+}
+
+.r2{
+  flex:right;
+  vertical-align: bottom;
+}
+
+.smalltrophy{
+  position: absolute;
+}
+
+.bigtrophy{
+  margin-left: 854px;
+  margin-right: auto;
+  flex: right;
+  position: absolute;
+}
+
 .prize_img_wrapper {
   display: flex;
   align-items: center;
@@ -100,6 +120,22 @@
   }
   .prize_wrapper p {
     font-size: 0.9rem;
+  }
+  .r1{
+    visibility: hidden;
+    display: none;
+  }
+  .r2{
+    visibility: hidden;
+    display: none;
+  }
+  .bigtrophy{
+    visibility: hidden;
+    display: none;
+  }
+  .smalltrophy{
+    visibility: hidden;
+    display: none;
   }
 }
 @media only screen and (max-width: 768px) {
