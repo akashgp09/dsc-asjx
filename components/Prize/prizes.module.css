@@ -52,6 +52,7 @@
   text-align: center;
   margin: 0.5rem auto 4.5rem auto;
   color: #fff;
+  z-index: 3;
 }
 .prize_type {
   font-weight: 900;
@@ -67,9 +68,10 @@
 }
 
 .prize_wrapper_position {
-  border: 5px solid #0E2E49;
-  background-color: #0E2E49;
+  border: 5px solid #0e2e49;
+  background-color: #0e2e49;
   border-radius: 5px;
+  z-index: 3;
 }
 
 .prize_wrapper_position p {
@@ -82,7 +84,7 @@
 .prize_label_position {
   font-size: 1.4rem;
   font-weight: 900;
-  color: #3DDB83;
+  color: #3ddb83;
 }
 
 .prize_label {
@@ -118,5 +120,77 @@
   .prize_type {
     font-size: 1.5rem;
     margin: 0.5rem auto 3rem auto;
+  }
+}
+.bar_left {
+  position: absolute;
+  padding: 15px;
+  width: 15vw;
+  background: #3ddb83;
+  margin-top: 150px;
+}
+.bar_right {
+  position: absolute;
+  width: 15vw;
+  padding: 15px;
+  right: 0;
+  background: #3ddb83;
+  margin-top: 150px;
+}
+.trophyLeft {
+  position: absolute;
+  margin-top: 220px;
+  z-index: 2;
+}
+.trophyRight {
+  position: absolute;
+  margin-top: 500px;
+  right: 0;
+  z-index: 2;
+  height: 350px;
+  /* max-height: 570px;
+  width: auto; */
+}
+.popperLeft {
+  position: absolute;
+  margin-top: 200px;
+  z-index: 1;
+}
+.popperRight {
+  position: absolute;
+  margin-top: 510px;
+  right: 0;
+  height: 150px;
+  z-index: 1;
+}
+@media only screen and (max-width: 600px) {
+  .trophyRight {
+    margin-top: 210px;
+  }
+  .popperRight {
+    margin-top: 220px;
+  }
+  .popperLeft {
+    margin-top: 215px;
+  }
+  .trophyLeft {
+    margin-top: 230px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .trophyRight {
+    margin-top: 240px;
+    height: 250px;
+  }
+  .popperRight {
+    margin-top: 250px;
+    height: 110px;
+  }
+  .trophyLeft {
+    margin-top: 250px;
+    height: 250px;
+  }
+  .popperLeft {
+    margin-top: 235px;
   }
 }
