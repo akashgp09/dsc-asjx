@@ -78,6 +78,8 @@ export default function Intro() {
   return (
     <>
       <div className={styles.background} id="landing-section">
+        <img src="/images/android.gif" className={styles.android1} />
+        <img src="/images/android2.gif" className={styles.android2} />
         <div className={styles.header}>
           <img
             src="/images/asjx-logo.svg"
@@ -93,21 +95,10 @@ export default function Intro() {
           </span>
         </div>
         <div className="row">
-          <div className={styles.android}>
-            <img
-              src="/images/android.gif"
-              height="250"
-              width="270"
-              className={styles.img}
-            />
-            KIIT's largest Android Hackathon
-            <img
-              src="/images/android2.gif"
-              height="250"
-              width="270"
-              className={styles.img1}
-            />
+          <div className={styles.android_img_wrapper}>
+            <img src="/images/android.gif" className={styles.android_small} />
           </div>
+          <div className={styles.title}>KIIT's largest android hackathon</div>
           <div className={styles.date}>
             6th January 2021 - 22nd January 2021
           </div>
