@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/asjx-logo.ico" />
         <meta name="description" content="DSC ASJ-X" />
         <meta
           property="og:image"
