@@ -19,7 +19,7 @@ export default function Team() {
             <div className="col-lg-4 col-md-5 col-9">
               <div className={styles.wrapper}>
                 <img
-                  src="/images/team/arpit-mishra.jpg"
+                  src="/images/team/arpit_new.jpg"
                   alt="Team Member"
                   className={styles.member_img}
                 />
@@ -300,7 +300,7 @@ export default function Team() {
             <div className="col-lg-4 col-md-5 col-9">
               <div className={styles.wrapper}>
                 <img
-                  src="images/team/sourav-dash.jpg"
+                  src="images/team/srv.jpg"
                   alt="Team Member"
                   className={styles.member_img}
                 />

@@ -1,4 +1,5 @@
 import styles from "./sponsors.module.css";
+import Link from "next/link";
 export default function Sponsors() {
   return (
     <>
@@ -12,11 +13,13 @@ export default function Sponsors() {
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-center`}
             >
-              <img
-                src="/images/sponsors/cn.png"
-                alt="Coding Ninja"
-                className={styles.sponsor_img_size}
-              />
+              <Link href="https://www.codingninjas.com/">
+                <img
+                  src="/images/sponsors/cn.png"
+                  alt="Coding Ninja"
+                  className={styles.sponsor_img_size}
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -24,11 +27,13 @@ export default function Sponsors() {
         <div className="container text-center">
           <div className="row justify-content-center">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
-              <img
-                src="/images/sponsors/devfolio.png"
-                alt="Devfolio"
-                className={styles.sponsor_img_size}
-              />
+              <Link href="https://devfolio.co/">
+                <img
+                  src="/images/sponsors/devfolio.png"
+                  alt="Devfolio"
+                  className={styles.sponsor_img_size}
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -36,29 +41,35 @@ export default function Sponsors() {
         <div className="container text-center">
           <div className="row">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
-              <img
-                src="/images/sponsors/tezos.png"
-                alt="Tezos"
-                className={styles.sponsor_img_size}
-              />
+              <Link href="https://tezos.com/">
+                <img
+                  src="/images/sponsors/tezos.png"
+                  alt="Tezos"
+                  className={styles.sponsor_img_size}
+                />
+              </Link>
             </div>
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-center`}
             >
-              <img
-                src="/images/sponsors/matic.png"
-                alt="Matic"
-                className={styles.sponsor_img_size}
-              />
+              <Link href="https://matic.network/">
+                <img
+                  src="/images/sponsors/matic.png"
+                  alt="Matic"
+                  className={styles.sponsor_img_size}
+                />
+              </Link>
             </div>
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-end`}
             >
-              <img
-                src="/images/sponsors/portis.png"
-                alt="Portis"
-                className={styles.sponsor_img_size}
-              />
+              <Link href="https://www.portis.io/">
+                <img
+                  src="/images/sponsors/portis.png"
+                  alt="Portis"
+                  className={styles.sponsor_img_size}
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -66,20 +77,24 @@ export default function Sponsors() {
         <div className="container text-center">
           <div className="row justify-content-center">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
-              <img
-                src="/images/sponsors/cb.png"
-                alt="Coding Blocks"
-                className={styles.sponsor_img_size}
-              />
+              <Link href="https://codingblocks.com/" target="_blank">
+                <img
+                  src="/images/sponsors/cb.png"
+                  alt="Coding Blocks"
+                  className={styles.sponsor_img_size}
+                />
+              </Link>
             </div>
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-end`}
             >
-              <img
-                src="/images/sponsors/hc.png"
-                alt="HackClub"
-                className={styles.sponsor_img_size}
-              />
+              <Link href="https://hackclub.com/">
+                <img
+                  src="/images/sponsors/hc.png"
+                  alt="HackClub"
+                  className={styles.sponsor_img_size}
+                />
+              </Link>
             </div>
           </div>
         </div>
