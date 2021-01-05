@@ -8,6 +8,7 @@ import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import CalendarTodayOutlinedIcon from "@material-ui/icons/CalendarTodayOutlined";
 import LibraryBooksOutlinedIcon from "@material-ui/icons/LibraryBooksOutlined";
 import GroupOutlinedIcon from "@material-ui/icons/GroupOutlined";
+import MicNoneOutlinedIcon from "@material-ui/icons/MicNoneOutlined";
 import { FaRegHandshake } from "react-icons/fa";
 import { BiGift } from "react-icons/bi";
 import { BsQuestion } from "react-icons/bs";
@@ -29,6 +30,11 @@ const actions = [
     section: "#footer-section",
   },
   {
+    icon: <GroupOutlinedIcon />,
+    name: "Team",
+    section: "#team-section",
+  },
+  {
     icon: <BsQuestion style={{ fontSize: "1.75rem" }} />,
     name: "Faq's",
     section: "#faq-section",
@@ -44,7 +50,7 @@ const actions = [
     section: "#sponsors-section",
   },
   {
-    icon: <GroupOutlinedIcon />,
+    icon: <MicNoneOutlinedIcon />,
     name: "Speakers",
     section: "#speakers-section",
   },

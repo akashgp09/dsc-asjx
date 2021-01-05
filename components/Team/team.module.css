@@ -26,29 +26,33 @@
   color: white;
   max-width: 300px;
   margin: 10px auto;
+  background-color: rgba(0, 0, 0);
+  border: 15px solid #33db85;
+  border-radius: 5px;
 }
 
 .bottom_left {
   position: absolute;
-  bottom: 17px;
-  left: 20px;
+  bottom: 1.5px;
+  left: 4px;
   text-align: start;
 }
 
 .bottom_right {
   position: absolute;
-  bottom: 17px;
-  right: 20px;
+  bottom: 1px;
+  right: 4px;
 }
 
 .member_img {
   width: 100%;
   max-width: 300px;
   height: auto;
-  border: 15px solid #33db85;
-  border-radius: 5px;
 }
-
+.member_img:hover {
+  opacity: 0.5;
+  transition: 0.6s;
+}
 .name {
   font-size: 1.2rem;
   font-weight: 900;
@@ -168,7 +172,7 @@
   .role {
     font-size: 0.9rem;
   }
-  .member_img {
+  .wrapper {
     border: 13px solid #33db85;
   }
 }
@@ -204,12 +208,8 @@
   .social_margin {
     margin: auto;
   }
-  .bottom_left {
-    left: 16px;
-  }
 
   .bottom_right {
-    right: 16px;
     font-size: 0.85rem;
   }
 }
@@ -217,12 +217,8 @@
   .name {
     font-size: 0.8rem;
   }
-  .bottom_left {
-    left: 15px;
-  }
 
   .bottom_right {
-    right: 15px;
     font-size: 0.7rem;
   }
 }

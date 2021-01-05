@@ -49,7 +49,6 @@ export default function Home() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         />
-        <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
       </Head>
       <Sidebar />
       <SpeedDial />
@@ -62,6 +61,7 @@ export default function Home() {
       <Faq />
       <Team />
       <Footer />
+      <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
     </>
   );
 }

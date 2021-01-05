@@ -33,6 +33,7 @@
   max-width: 300px;
   height: auto;
   text-decoration: none;
+  cursor: pointer;
 }
 .sponsor_imgbig_size {
   width: 40%;

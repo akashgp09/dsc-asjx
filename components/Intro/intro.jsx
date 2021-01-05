@@ -118,7 +118,7 @@ export default function Intro() {
         </div>
         <div className="row">
           <div className={styles.title}>
-            <DevfolioButton
+            {/* <DevfolioButton
               letiant="contained"
               size="large"
               href="https://asjx.devfolio.co/"
@@ -135,13 +135,13 @@ export default function Intro() {
                 <path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"></path>
               </svg>
               Apply with Devfolio
-            </DevfolioButton>
-           {/* <div 
-              class="apply-button" 
-              data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+            </DevfolioButton> */}
+            <div
+              class="apply-button"
+              data-hackathon-slug="asjx"
               data-button-theme="light"
-              style={{height: '44px', width: '312px'}}
-            ></div> */}
+              style={{ height: "44px", width: "312px" }}
+            ></div>
           </div>
         </div>
 
