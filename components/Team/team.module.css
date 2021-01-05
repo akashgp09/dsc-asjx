@@ -1,0 +1,242 @@
+.header {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 3.2rem;
+}
+.header span {
+  color: white;
+}
+.half_background {
+  background: linear-gradient(to top, #3ddb83 50%, transparent 50%);
+}
+.background {
+  background-color: #4384f2;
+  padding-bottom: 3.4rem;
+  margin-left: 94px;
+}
+@media only screen and (max-width: 600px) {
+  .background {
+    margin-left: 0;
+  }
+}
+
+.wrapper {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.bottom_left {
+  position: absolute;
+  bottom: 17px;
+  left: 20px;
+  text-align: start;
+}
+
+.bottom_right {
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+}
+
+.member_img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 15px solid #33db85;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.role {
+  font-weight: 900;
+}
+.team_header {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0.5rem auto 4.5rem auto;
+  color: #fff;
+  z-index: 3;
+}
+.bar_left {
+  position: absolute;
+  padding: 15px;
+  width: 15vw;
+  background: #3ddb83;
+  margin-top: 150px;
+}
+.bar_right {
+  position: absolute;
+  width: 15vw;
+  padding: 15px;
+  right: 0;
+  background: #3ddb83;
+  margin-top: 150px;
+}
+.mouse {
+  position: absolute;
+  margin-top: 150px;
+  /* z-index: 2; */
+  width: 250px;
+}
+.laptop {
+  position: absolute;
+  margin-top: 100px;
+  right: 0;
+  width: 250px;
+}
+.social_margin {
+  margin: auto 0.25rem;
+}
+@media only screen and (min-width: 1482px) {
+  .mouse {
+    position: absolute;
+    margin-top: 200px;
+    /* z-index: 2; */
+    width: 300px;
+  }
+  .laptop {
+    position: absolute;
+    margin-top: 300px;
+    right: 0;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1055px) {
+  .role {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 815px) {
+  .role {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .member_img {
+    max-width: 410px;
+  }
+  .wrapper {
+    max-width: 410px;
+  }
+  .role {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .mouse {
+    position: absolute;
+    margin-top: 200px;
+    /* z-index: 2; */
+    width: 200px;
+  }
+  .laptop {
+    position: absolute;
+    margin-top: 300px;
+    right: 0;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mouse {
+    position: absolute;
+    margin-top: 200px;
+    /* z-index: 2; */
+    width: 150px;
+  }
+  .laptop {
+    position: absolute;
+    margin-top: 200px;
+    right: 0;
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .name {
+    font-size: 1rem;
+  }
+  .role {
+    font-size: 0.9rem;
+  }
+  .member_img {
+    border: 13px solid #33db85;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .mouse {
+    position: absolute;
+    margin-top: 220px;
+    /* z-index: 2; */
+    width: 130px;
+  }
+  .laptop {
+    position: absolute;
+    margin-top: 200px;
+    right: 0;
+    width: 130px;
+  }
+  .name {
+    font-size: 0.9rem;
+  }
+  .role {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .name {
+    font-size: 0.8rem;
+  }
+  .role {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .social_margin {
+    margin: auto;
+  }
+  .bottom_left {
+    left: 16px;
+  }
+
+  .bottom_right {
+    right: 16px;
+    font-size: 0.85rem;
+  }
+}
+@media only screen and (max-width: 315px) {
+  .name {
+    font-size: 0.8rem;
+  }
+  .bottom_left {
+    left: 15px;
+  }
+
+  .bottom_right {
+    right: 15px;
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 295px) {
+  .mouse {
+    position: absolute;
+    margin-top: 250px;
+    /* z-index: 2; */
+    width: 100px;
+  }
+  .laptop {
+    position: absolute;
+    margin-top: 220px;
+    right: 0;
+    width: 100px;
+  }
+}

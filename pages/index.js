@@ -9,6 +9,7 @@ import Rules from "../components/Rules/rules";
 import Prizes from "../components/Prize/prizes";
 import Intro from "../components/Intro/intro";
 import Footer from "../components/Footer/footer";
+import Team from "../components/Team/team";
 export const META = {
   title: "ASJ-X Hackathon",
   name: "DSC KIIT",
@@ -59,6 +60,7 @@ export default function Home() {
       <Sponsors />
       <Prizes />
       <Faq />
+      <Team />
       <Footer />
     </>
   );
