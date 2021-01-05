@@ -90,3 +90,6 @@ a {
   outline: 0 !important;
   background-color: #0e2e49 !important;
 }
+.fa-github:hover {
+  color: black;
+}
