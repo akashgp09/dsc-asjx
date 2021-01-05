@@ -29,7 +29,7 @@ export default function Sponsors() {
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
               <Link href="https://devfolio.co/">
                 <img
-                  src="/images/sponsors/devfolio.png"
+                  src="/images/sponsors/devfolio1.svg"
                   alt="Devfolio"
                   className={styles.sponsor_img_size}
                 />
