@@ -136,12 +136,12 @@ export default function Intro() {
               </svg>
               Apply with Devfolio
             </DevfolioButton>
-<!--             <div 
+           {/* <div 
               class="apply-button" 
               data-hackathon-slug="YOUR-HACKATHON-SLUG" 
               data-button-theme="light"
               style={{height: '44px', width: '312px'}}
-            ></div> -->
+            ></div> */}
           </div>
         </div>
 
