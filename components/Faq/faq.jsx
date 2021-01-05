@@ -42,7 +42,7 @@ export default function SimpleAccordion() {
             </AccordionSummary>
             <AccordionDetails>
               <span>
-                The hackathon will be conducted online from 11th to 22nd Jan
+                The hackathon will be conducted online from 6th Jan to 22nd Jan
                 2021.
               </span>
             </AccordionDetails>
