@@ -78,6 +78,16 @@ a {
     --schedule_font: 1rem;
   }
 }
+@media only screen and (max-width: 400px) {
+  :root {
+    --schedule_font: 0.9rem;
+  }
+}
+@media only screen and (max-width: 361px) {
+  :root {
+    --schedule_font: 0.75rem;
+  }
+}
 .is_active a i svg path {
   fill: #3ddb83;
 }

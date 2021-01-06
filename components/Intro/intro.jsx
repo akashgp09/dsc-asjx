@@ -111,7 +111,7 @@ export default function Intro() {
               className={styles.android_small}
             />
           </div>
-          <div className={styles.title}>KIIT's largest android hackathon</div>
+          <div className={styles.title}>Biggest android hackathon</div>
           <div className={styles.date}>
             6th January 2021 - 22nd January 2021
           </div>

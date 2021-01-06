@@ -221,10 +221,10 @@
   transform: translate(calc(-100% - 5px), -50%) rotate(45deg);
 }
 .tooltip.day2_right::after {
-  content: "REGISTRATION CLOSES";
+  content: "-REGISTRATION CLOSES\A-SPEAKER SESSION";
   top: 0;
   right: 0;
-
+  white-space: pre-wrap;
   font-size: var(--schedule_font);
   transform: translateX(calc(100% + 10px));
 }
@@ -235,9 +235,10 @@
   transform: translate(calc(100% + 5px), -50%) rotate(45deg);
 }
 .tooltip.day3_left::after {
-  content: "PROBLEM STATEMENT WILL BE PROVIDED";
+  content: "-PROBLEM STATEMENT WILL BE PROVIDED \A -SPEAKER SESSION";
   top: 0;
   left: 0;
+  white-space: pre-wrap;
   font-size: var(--schedule_font);
   transform: translateX(calc(-100% - 10px));
 }

@@ -4,12 +4,12 @@ export default function Speakers() {
     <>
       <div className={styles.background} id="speakers-section">
         <div className={styles.header}>
-          <span className={styles.half_background}>Speakers</span>
+          <span className={styles.half_background}>Guests</span>
         </div>
         <div className={`container-fluid ${styles.speakers}`}>
           <div className="row">
             <div
-              className={`${styles.speaker_img_wrapper} col-md-6 d-flex justify-content-center p-4`}
+              className={`${styles.speaker_img_wrapper} col-md-4 d-flex justify-content-center p-4`}
             >
               <div className="card" style={{ width: "18rem" }}>
                 <img
@@ -22,14 +22,14 @@ export default function Speakers() {
                     Gurupreet Singh
                   </h5>
                   <p className={`${styles.speaker_description} card-text`}>
-                    Android
+                    Speaker
                     <br /> Foodpanda(APAC)
                   </p>
                 </div>
               </div>
             </div>
             <div
-              className={`${styles.speaker_img_wrapper} col-md-6 d-flex justify-content-center p-4`}
+              className={`${styles.speaker_img_wrapper} col-md-4 d-flex justify-content-center p-4`}
             >
               <div className="card" style={{ width: "18rem" }}>
                 <img
@@ -42,8 +42,29 @@ export default function Speakers() {
                     Himanshu Singh
                   </h5>
                   <p className={`${styles.speaker_description} card-text`}>
-                    Android
+                    Speaker
                     <br /> Google Developer Expert
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className={`${styles.speaker_img_wrapper} col-md-4 d-flex justify-content-center p-4`}
+            >
+              <div className="card" style={{ width: "18rem" }}>
+                <img
+                  className="card-img-top"
+                  src="/images/speakers/judge-pr.jpg"
+                  alt="Speaker 2"
+                />
+                <div className="card-body text-center">
+                  <h5 className={`${styles.speaker_name} card-title`}>
+                    Prudhvi Reddy
+                  </h5>
+                  <p className={`${styles.speaker_description} card-text`}>
+                    Judge
+                    <br />
+                    Zomato(SDE)
                   </p>
                 </div>
               </div>
