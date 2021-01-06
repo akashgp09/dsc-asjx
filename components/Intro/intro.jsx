@@ -137,7 +137,7 @@ export default function Intro() {
               Apply with Devfolio
             </DevfolioButton> */}
             <div
-              class="apply-button"
+              className="apply-button"
               data-hackathon-slug="asjx"
               data-button-theme="light"
               style={{ height: "44px", width: "312px" }}
