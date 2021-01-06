@@ -11,7 +11,10 @@ export default function Rules() {
           <div className="row">
             <div className={styles.rule}>
               <span className={styles.number}>1.</span> Each participant has to
-              register on Devfolio. Confused? Watch video: <a href="">link</a>
+              register on Devfolio. Confused? Watch video:{" "}
+              <a href="" className={styles.link} target="_blank">
+                link
+              </a>
             </div>
           </div>
           <div className="row">
@@ -53,7 +56,11 @@ export default function Rules() {
             <div className={styles.rule}>
               <span className={styles.number}>7.</span> Submission Format for
               Devfolio/
-              <a href="https://guide.devfolio.co/during-hackathon/submissions-on-devfolio">
+              <a
+                href="https://guide.devfolio.co/during-hackathon/submissions-on-devfolio"
+                className={styles.link}
+                target="_blank"
+              >
                 Click Here
               </a>
               <div className={styles.alpha}>a. APK file</div>

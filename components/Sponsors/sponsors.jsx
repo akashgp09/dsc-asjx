@@ -1,5 +1,4 @@
 import styles from "./sponsors.module.css";
-import Link from "next/link";
 export default function Sponsors() {
   return (
     <>
@@ -13,13 +12,13 @@ export default function Sponsors() {
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-center`}
             >
-              <Link href="https://www.codingninjas.com/">
+              <a href="https://www.codingninjas.com/" target="_blank">
                 <img
                   src="/images/sponsors/cn.png"
                   alt="Coding Ninja"
                   className={styles.sponsor_img_size}
                 />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -27,13 +26,13 @@ export default function Sponsors() {
         <div className="container text-center">
           <div className="row justify-content-center">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
-              <Link href="https://devfolio.co/">
+              <a href="https://devfolio.co/" target="_blank">
                 <img
                   src="/images/sponsors/devfolio1.svg"
                   alt="Devfolio"
                   className={styles.sponsor_img_size}
                 />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -41,35 +40,35 @@ export default function Sponsors() {
         <div className="container text-center">
           <div className="row">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
-              <Link href="https://tezos.com/">
+              <a href="https://tezos.com/" target="_blank">
                 <img
                   src="/images/sponsors/tezos.png"
                   alt="Tezos"
                   className={styles.sponsor_img_size}
                 />
-              </Link>
+              </a>
             </div>
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-center`}
             >
-              <Link href="https://matic.network/">
+              <a href="https://matic.network/" target="_blank">
                 <img
                   src="/images/sponsors/matic.png"
                   alt="Matic"
                   className={styles.sponsor_img_size}
                 />
-              </Link>
+              </a>
             </div>
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-end`}
             >
-              <Link href="https://www.portis.io/">
+              <a href="https://www.portis.io/" target="_blank">
                 <img
                   src="/images/sponsors/portis.png"
                   alt="Portis"
                   className={styles.sponsor_img_size}
                 />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -77,24 +76,28 @@ export default function Sponsors() {
         <div className="container text-center">
           <div className="row justify-content-center">
             <div className={`col-md-4  ${styles.sponsor_img_wrapper}`}>
-              <Link href="https://codingblocks.com/" target="_blank">
+              <a
+                href="https://codingblocks.com/"
+                target="_blank"
+                target="_blank"
+              >
                 <img
                   src="/images/sponsors/cb.png"
                   alt="Coding Blocks"
                   className={styles.sponsor_img_size}
                 />
-              </Link>
+              </a>
             </div>
             <div
               className={`col-md-4  ${styles.sponsor_img_wrapper} align-self-end`}
             >
-              <Link href="https://hackclub.com/">
+              <a href="https://hackclub.com/" target="_blank">
                 <img
                   src="/images/sponsors/hc.png"
                   alt="HackClub"
                   className={styles.sponsor_img_size}
                 />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

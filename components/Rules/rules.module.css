@@ -45,4 +45,11 @@
   .background {
     margin-left: 0;
   }
+  .number {
+    font-size: 36px;
+  }
+}
+.link {
+  text-decoration: underline;
+  color: #4384f2;
 }

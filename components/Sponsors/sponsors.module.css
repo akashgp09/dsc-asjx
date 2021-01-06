@@ -29,11 +29,10 @@
 }
 
 .sponsor_img_size {
-  width: 80%;
+  width: 94%;
   max-width: 300px;
   height: auto;
   text-decoration: none;
-  cursor: pointer;
 }
 .sponsor_imgbig_size {
   width: 40%;
@@ -46,4 +45,18 @@
   font-size: 1.8rem;
   text-align: center;
   margin: 2rem auto;
+}
+.sponsor_img_wrapper a {
+  width: 94%;
+  max-width: 300px;
+  height: auto;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .sponsor_img_wrapper a {
+    width: 98%;
+  }
+  .sponsor_img_size {
+    width: 98%;
+  }
 }
