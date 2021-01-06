@@ -11,10 +11,7 @@ export default function Rules() {
           <div className="row">
             <div className={styles.rule}>
               <span className={styles.number}>1.</span> Each participant has to
-              register on Devfolio. Confused? Watch video:{" "}
-              <a href="" className={styles.link} target="_blank">
-                link
-              </a>
+              register on Devfolio. Confused? Join our discord: <a href="https://discord.gg/nYQCMKF" className={styles.link} target="_blank">Click Here</a>
             </div>
           </div>
           <div className="row">
