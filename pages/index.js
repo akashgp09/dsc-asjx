@@ -51,7 +51,6 @@ export default function Home() {
         />
       </Head>
       <Sidebar />
-      <SpeedDial />
       <Intro />
       <Schedule />
       <Rules />
@@ -61,6 +60,7 @@ export default function Home() {
       <Faq />
       <Team />
       <Footer />
+      <SpeedDial />
       <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
     </>
   );
