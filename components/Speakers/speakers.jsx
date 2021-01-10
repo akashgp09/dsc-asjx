@@ -7,7 +7,7 @@ export default function Speakers() {
           <span className={styles.half_background}>Guests</span>
         </div>
         <div className={`container-fluid ${styles.speakers}`}>
-          <div className="row">
+          <div className="row d-flex justify-content-center">
             <div
               className={`${styles.speaker_img_wrapper} col-md-4 d-flex justify-content-center p-4`}
             >
@@ -55,7 +55,7 @@ export default function Speakers() {
                 <img
                   className="card-img-top"
                   src="/images/speakers/judge-pr.jpg"
-                  alt="Speaker 2"
+                  alt="Jugde 1"
                 />
                 <div className="card-body text-center">
                   <h5 className={`${styles.speaker_name} card-title`}>
@@ -65,6 +65,27 @@ export default function Speakers() {
                     Judge
                     <br />
                     Zomato(SDE)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className={`${styles.speaker_img_wrapper} col-md-4 d-flex justify-content-center p-4`}
+            >
+              <div className="card" style={{ width: "18rem" }}>
+                <img
+                  className="card-img-top"
+                  src="/images/speakers/judge-2.jpg"
+                  alt="Judge 2"
+                />
+                <div className="card-body text-center">
+                  <h5 className={`${styles.speaker_name} card-title`}>
+                    Kshitij Chauhan
+                  </h5>
+                  <p className={`${styles.speaker_description} card-text`}>
+                    Judge
+                    <br />
+                    Upcover(M.E.)
                   </p>
                 </div>
               </div>
