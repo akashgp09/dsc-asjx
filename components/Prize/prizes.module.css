@@ -23,7 +23,14 @@
   margin-bottom: 0.6rem;
   overflow: hidden;
 }
-
+.prize_img_wrapper_sponsor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 285px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
 .prize_img_wrapper_position {
   display: flex;
   align-items: center;
@@ -192,5 +199,10 @@
   }
   .popperLeft {
     margin-top: 235px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .prize_img_wrapper_sponsor {
+    font-size: 0.9rem;
   }
 }

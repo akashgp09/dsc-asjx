@@ -106,7 +106,7 @@ export default function Prizes() {
         <div className="container text-center">
           <div className="row d-flex justify-content-around">
             <div
-              className={`col-md-4 col-lg-3 mb-5 col-9 card mr-md-1 ${styles.prize_img_wrapper}`}
+              className={`col-md-4 col-lg-3 mb-5 col-9 card mr-md-1 ${styles.prize_img_wrapper_sponsor}`}
             >
               <img
                 src="/images/sponsors/tezos.png"
@@ -115,13 +115,13 @@ export default function Prizes() {
               />
               <br />
               <p className={styles.sponsors_prize}>
-                -Rs.10000 for best D app built on tezos
+                -₹20,000 for best Dapp built on Tezos
                 <br />
-                -Rs.5000 for runners
+                -Continuity Grant opportunity for exceptional builders
               </p>
             </div>
             <div
-              className={`col-md-4 col-lg-3 mb-5 col-9 card  mx-md-1 ${styles.prize_img_wrapper} align-self-center`}
+              className={`col-md-4 col-lg-3 mb-5 col-9 card  mx-md-1 ${styles.prize_img_wrapper_sponsor} align-self-center`}
             >
               <img
                 src="/images/sponsors/matic.png"
@@ -130,12 +130,15 @@ export default function Prizes() {
               />
               <br />
               <p className={styles.sponsors_prize}>
-                -Rs.10000 for best app built on Ethereum <br />
-                -Rs.15000 for best app built on ethereum and portis
+                -₹10,000 for the best hack built on Ethereum <br />
+                -₹15,000 for the best hack built on Ethereum + Matic
+                <br />
+                -Eligibility to apply for internship/full-time roles and seed
+                funding of up to 5,000 USD for winners!
               </p>
             </div>
             <div
-              className={`col-md-4 col-lg-3 mb-5 col-9 card  ml-md-1 ${styles.prize_img_wrapper} align-self-end`}
+              className={`col-md-4 col-lg-3 mb-5 col-9 card  ml-md-1 ${styles.prize_img_wrapper_sponsor} align-self-end`}
             >
               <img
                 src="/images/sponsors/portis.png"
@@ -144,7 +147,7 @@ export default function Prizes() {
               />
               <br />
               <p className={styles.sponsors_prize}>
-                -200 USD (Crypto) for best app built on portis
+                -₹15,000 for best Dapp built on Portis
               </p>
             </div>
           </div>
