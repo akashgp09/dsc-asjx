@@ -143,59 +143,6 @@
   z-index: 1;
 }
 
-.registration {
-  font-size: 4vw;
-  font-weight: 900;
-  color: #4383f2;
-  text-align: center;
-}
-.countTimer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #252525;
-  margin-top: 25px;
-}
-.countTimer .clockBox {
-  width: 10vw;
-  height: 10vw;
-  margin-right: 3vw;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 5px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  font-size: 4vw;
-  padding-bottom: 3.1vw;
-}
-.countTimer .clockBox::after {
-  content: "Days";
-  width: 100%;
-  background-color: #3ddb83;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0.5vw 0;
-  border-radius: 5px;
-  font-size: 1.8vw;
-  font-weight: 900;
-}
-
-.countTimer .clockBox:nth-child(2)::after {
-  content: "Hours";
-}
-.countTimer .clockBox:nth-child(3)::after {
-  content: "Minutes";
-}
-.countTimer .clockBox:nth-child(4)::after {
-  content: "Seconds";
-}
-.countTimer .clockBox:nth-child(4) {
-  margin-right: 0;
-}
-
 @media only screen and (max-width: 720px) {
   .title {
     font-size: 1.8rem;
@@ -208,25 +155,14 @@
   }
 }
 @media only screen and (max-width: 650px) {
-  .registration {
-    font-size: 5.5vw;
-  }
-  .countTimer .clockBox {
-    width: 13vw;
-    height: 13vw;
-    font-size: 4.5vw;
-  }
-  .countTimer .clockBox::after {
-    font-size: 2.2vw;
+  .logo_text {
+    padding: 0;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .background {
     margin-left: 0;
-  }
-  .countTimer {
-    margin-top: 10px;
   }
 }
 
@@ -243,14 +179,6 @@
   .header_text {
     font-size: 1.2rem;
   }
-  .countTimer .clockBox {
-    width: 13vw;
-    height: 14vw;
-    font-size: 6vw;
-  }
-  .countTimer .clockBox::after {
-    font-size: 2.5vw;
-  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -265,14 +193,6 @@
   }
   .header_text {
     font-size: 1rem;
-  }
-  .countTimer .clockBox {
-    width: 16vw;
-    height: 16vw;
-    font-size: 7vw;
-  }
-  .countTimer .clockBox::after {
-    font-size: 3vw;
   }
 }
 .android1 {
